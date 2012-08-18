@@ -9,5 +9,5 @@ import urllib
 import random
 
 url = urllib.urlopen('http://felix.tl/glowing-octo-wight/').read().splitlines()
-myline = random.choice(url)
-print(myline)
+line = random.choice(url)
+print(line)
