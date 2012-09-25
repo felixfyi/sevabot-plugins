@@ -8,6 +8,6 @@ The default URL is hosted on GitHub pages.
 import urllib
 import random
 
-url = urllib.urlopen('http://felix.tl/glowing-octo-wight/').read().splitlines()
+url = urllib.urlopen('https://raw.github.com/lixef/glowing-octo-wight/gh-pages/index.html').read().splitlines()
 line = random.choice(url)
 print(line)
