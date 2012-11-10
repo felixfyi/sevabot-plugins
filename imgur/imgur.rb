@@ -1,3 +1,6 @@
+# Dependencies:
+# Install required rubygems
+
 require 'json'
 require 'open-uri'
 
